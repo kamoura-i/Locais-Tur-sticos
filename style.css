@@ -2,15 +2,24 @@
   margin: 0;
   padding: 0;
 }
+;:root{
+  font-family: "Open Sans", sans-serif;  
+}
+
 
 #page{
   width: 1120px;
   height: 3054px;
   margin: 88px auto 137px;
+  font-family: "Open Sans", sans-serif;
 }
+
 #busan{
+margin-top: 40px; 
+}
+
+#busan img{
 margin-bottom: 24px;
-margin-top:  44px; ;
 }
 
 .divider {
@@ -21,19 +30,82 @@ margin-top:  44px; ;
 }
 #description{
   margin-top: 64px;
-  margin-bottom:64px; ;
+  margin-bottom:64px; 
+}
+#temple-haedong{
+  margin-bottom: 48px;
 }
 
-#temple-haedong h2{
+#temple-haedong h3{
   margin-top: 20px;
+  margin-bottom: 4px;
 }
 
 #temple-haedong img{
-  margin-top: 64px;
-  
+  margin-top: 64px; 
 }
-
 
 #temple-haedong ul{
-margin-left: 20px;
+margin-left: 15px;
 }
+#temple-beomeo {
+  margin-bottom: 48px;
+  }
+
+#temple-beomeo h3{
+margin-top: 20px;
+margin-bottom: 4px;
+}
+
+#temple-beomeo ul{
+margin-left: 15px;
+}
+
+#park-yongdusan h3 {
+  margin-top: 20px;
+  margin-bottom:4px;
+}
+
+#park-yongdusan ul{
+  margin-left: 15px;
+}
+
+h1{
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h2{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h3{
+  font-size: 28px;
+  font-weight: 700;
+}
+body h5{
+  font-size: 16px;
+  font-weight: 700;
+  color: #E1624F;
+  text-transform: uppercase;
+}
+
+p{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+ul{
+  color: #0C51A7;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#description-footer p{
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 40px;
+  margin-bottom: 65px;
+}
+
